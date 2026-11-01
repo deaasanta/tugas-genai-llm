@@ -1,0 +1,13 @@
+{
+  "student_label": "Reza",
+  "grade_level": "SMA kelas 11",
+  "subject": "Matematika",
+  "scores": [
+    {"concept": "Persamaan linear", "correct": 3, "total": 8},
+    {"concept": "Fungsi kuadrat", "correct": 5, "total": 8},
+    {"concept": "Trigonometri dasar", "correct": 2, "total": 10},
+    {"concept": "Limit fungsi", "correct": 4, "total": 6},
+    {"concept": "Barisan aritmetika", "correct": 7, "total": 8}
+  ],
+  "teacher_note": "Reza sering tidak menyelesaikan soal cerita."
+}

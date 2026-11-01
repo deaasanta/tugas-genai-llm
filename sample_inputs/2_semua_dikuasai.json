@@ -1,0 +1,8 @@
+{
+  "student_label": "Siswa-07",
+  "scores": [
+    {"concept": "Persamaan linear", "correct": 8, "total": 8},
+    {"concept": "Fungsi kuadrat", "correct": 7, "total": 8},
+    {"concept": "Barisan aritmetika", "correct": 9, "total": 10}
+  ]
+}
