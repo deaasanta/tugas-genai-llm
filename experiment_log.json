@@ -1,0 +1,191 @@
+{
+  "example_response": {
+    "student_label": "Reza",
+    "report": {
+      "ringkasan": "Reza telah menguasai barisan aritmetika, namun masih mengalami kesulitan pada konsep trigonometri dan persamaan linear. Kamu perlu lebih banyak berlatih agar dapat menyelesaikan soal matematika dengan lebih baik.",
+      "status_konsep": [
+        {
+          "konsep": "Trigonometri dasar",
+          "persentase_benar": 20,
+          "status": "belum_dikuasai"
+        },
+        {
+          "konsep": "Persamaan linear",
+          "persentase_benar": 38,
+          "status": "belum_dikuasai"
+        },
+        {
+          "konsep": "Fungsi kuadrat",
+          "persentase_benar": 63,
+          "status": "perlu_latihan"
+        },
+        {
+          "konsep": "Limit fungsi",
+          "persentase_benar": 67,
+          "status": "perlu_latihan"
+        },
+        {
+          "konsep": "Barisan aritmetika",
+          "persentase_benar": 88,
+          "status": "dikuasai"
+        }
+      ],
+      "konsep_prioritas": [
+        "Trigonometri dasar",
+        "Persamaan linear",
+        "Fungsi kuadrat"
+      ],
+      "rekomendasi_belajar": [
+        {
+          "konsep": "Trigonometri dasar",
+          "aktivitas": "Mengerjakan 5 soal dasar identitas trigonometri dalam waktu 30 menit.",
+          "alasan": "Latihan berulang membantu memperkuat pemahaman rumus dasar yang belum dikuasai."
+        },
+        {
+          "konsep": "Persamaan linear",
+          "aktivitas": "Menyelesaikan 5 soal cerita persamaan linear secara bertahap selama 30 menit.",
+          "alasan": "Fokus pada soal cerita dapat membantumu membiasakan diri menerjemahkan kalimat menjadi model matematika."
+        },
+        {
+          "konsep": "Fungsi kuadrat",
+          "aktivitas": "Menggambar 3 grafik fungsi kuadrat dari persamaan yang diberikan selama 20 menit.",
+          "alasan": "Visualisasi grafik akan memperdalam pemahamanmu mengenai karakteristik fungsi kuadrat."
+        }
+      ],
+      "pesan_untuk_siswa": "Teruslah berlatih secara rutin agar kamu semakin terbiasa mengerjakan berbagai jenis soal. Kamu pasti bisa meningkatkan kemampuan matematika jika dilakukan secara bertahap."
+    },
+    "warnings": [],
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "C"
+  },
+  "prompt_A": {
+    "prompt_version": "A",
+    "system_prompt": "You are a helpful assistant.",
+    "user_prompt": "Analisis nilai siswa ini:\n- Persamaan linear: 3/8 benar\n- Fungsi kuadrat: 5/8 benar\n- Trigonometri dasar: 2/10 benar\n- Limit fungsi: 4/6 benar\n- Barisan aritmetika: 7/8 benar",
+    "raw_output": "Berikut adalah analisis nilai siswa tersebut berdasarkan persentase penguasaan materi:\n\n### 1. Perhitungan Persentase per Materi\nUntuk melihat performa, kita ubah nilai pecahan menjadi persentase:\n\n*   **Barisan Aritmetika:** (7/8) × 100% = **87,5%** (Sangat Baik)\n*   **Limit Fungsi:** (4/6) × 100% = **66,7%** (Cukup/Baik)\n*   **Fungsi Kuadrat:** (5/8) × 100% = **62,5%** (Cukup)\n*   **Persamaan Linear:** (3/8) × 100% = **37,5%** (Kurang)\n*   **Trigonometri Dasar:** (2/10) × 100% = **20,0%** (Sangat Kurang)\n\n---\n\n### 2. Kesimpulan Analisis\n\n*   **Area Kekuatan (Strong Points):**\n    Siswa menunjukkan pemahaman yang sangat baik pada materi **Barisan Aritmetika**. Ini menandakan siswa memiliki logika berpikir yang baik dalam memahami pola matematis. Pemahaman pada materi **Limit Fungsi** juga berada di kategori aman.\n\n*   **Area yang Perlu Perhatian (Need Improvement):**\n    *   **Fungsi Kuadrat:** Berada di batas tengah. Siswa kemungkinan sudah paham konsep dasar, namun masih kesulitan saat masuk ke variasi soal yang lebih kompleks.\n    *   **Persamaan Linear:** Nilai di bawah 40% menunjukkan adanya miskonsepsi pada dasar-dasar aljabar. Mengingat persamaan linear adalah fondasi untuk materi lain (seperti fungsi kuadrat), ini perlu diperbaiki segera.\n\n*   **Area Kritis (Critical Need):**\n    *   **Trigonometri Dasar:** Ini adalah nilai terendah. Ada kemungkinan siswa belum memahami konsep dasar (seperti identitas trigonometri, sudut istimewa, atau penggunaan segitiga siku-siku). Karena skor ini sangat rendah, ini menjadi prioritas utama untuk remedial.\n\n---\n\n### 3. Rekomendasi Tindak Lanjut\n\n1.  **Prioritas Remedial:** Fokuskan sesi belajar tambahan pada **Trigonometri Dasar**. Karena nilainya sangat jauh di bawah rata-rata, siswa kemungkinan besar melewatkan konsep dasar sebelum masuk ke soal latihan.\n2.  **Perbaikan Fondasi:** Mengingat **Persamaan Linear** sebagai dasar aljabar nilainya juga rendah, lakukan pengulangan materi aljabar dasar. Jika fondasi aljabar lemah, siswa akan terus kesulitan di materi fungsi kuadrat dan limit.\n3.  **Strategi Latihan:**\n    *   Gunakan metode *peer tutoring* (tutor sebaya), di mana siswa yang mahir di Barisan Aritmetika bisa membantu siswa tersebut menjelaskan konsep dasar aljabar.\n    *   Berikan soal dengan tingkat kesulitan bertahap (dari dasar ke kompleks) khusus untuk Trigonometri dan Persamaan Linear.\n4.  **Pertahankan Momentum:** Berikan apresiasi pada materi Barisan Aritmetika agar siswa tetap memiliki motivasi belajar.\n\n**Total Rata-rata Skor:** (3+5+2+4+7) / (8+8+10+6+8) = 21 / 40 = **52,5%**.\nSecara keseluruhan, kemampuan siswa masih berada di tingkat menengah ke bawah, sehingga diperlukan penguatan pada konsep-konsep fundamental.",
+    "model": "gemini-3.1-flash-lite"
+  },
+  "prompt_B": {
+    "prompt_version": "B",
+    "system_prompt": "Kamu adalah guru matematika berpengalaman yang membantu siswa menemukan konsep yang belum dikuasai (learning gap).",
+    "user_prompt": "Tugas: analisis hasil tes siswa berikut, tentukan konsep mana yang sudah dikuasai dan mana yang belum, lalu beri rekomendasi belajar.\n\nKonteks: siswa Reza, SMA kelas 11, mata pelajaran Matematika. Catatan guru: Reza sering tidak menyelesaikan soal cerita.\n\nHasil tes per konsep:\n- Persamaan linear: 3/8 benar\n- Fungsi kuadrat: 5/8 benar\n- Trigonometri dasar: 2/10 benar\n- Limit fungsi: 4/6 benar\n- Barisan aritmetika: 7/8 benar",
+    "raw_output": "Halo Reza! Sebagai gurumu, saya sudah menganalisis hasil tes kamu. Secara keseluruhan, kamu sudah memiliki fondasi yang cukup baik, terutama pada pola numerik dan manipulasi aljabar dasar. Namun, ada beberapa celah yang perlu kita perbaiki agar pemahamanmu lebih kokoh.\n\nBerikut adalah analisis mendalam saya:\n\n### 1. Analisis Performa\n*   **Area Kekuatan (Sudah Dikuasai):**\n    *   **Barisan Aritmetika (87,5%):** Kamu sangat baik dalam memahami pola dan urutan. Ini menunjukkan kemampuan logikamu dalam mengikuti prosedur yang sistematis sudah kuat.\n    *   **Limit Fungsi (66,7%):** Meskipun belum sempurna, skor ini menunjukkan kamu mulai paham konsep abstrak tentang pendekatan nilai, yang merupakan prasyarat penting untuk kalkulus.\n\n*   **Area yang Perlu Perbaikan (Learning Gaps):**\n    *   **Trigonometri Dasar (20%):** Ini adalah titik terlemah. Kemungkinan besar kamu belum hafal sudut istimewa atau kesulitan menghubungkan konsep segitiga dengan fungsi trigonometri (sin, cos, tan).\n    *   **Persamaan Linear (37,5%):** Mengejutkan karena ini adalah materi dasar. Jika kamu sering gagal di soal cerita, kemungkinan kamu kesulitan **menerjemahkan bahasa narasi ke dalam bentuk matematika (pemodelan).**\n    *   **Fungsi Kuadrat (62,5%):** Kamu sudah paham cara menghitung, tapi mungkin masih sering keliru di bagian akar-akar atau menggambar grafik.\n\n---\n\n### 2. Diagnosis Masalah: Mengapa Soal Cerita Sulit?\nCatatan saya mengenai kesulitanmu di soal cerita sangat berkorelasi dengan hasil **Persamaan Linear**. Banyak siswa mahir menghitung $2x + 5 = 15$, tetapi bingung saat soalnya berbunyi: *\"Harga 2 buku dan 5 pensil adalah 15 ribu...\"*\n\n**Masalah utamamu bukan di \"menghitung\", melainkan di \"memodelkan\".**\n\n---\n\n### 3. Rekomendasi Belajar (Action Plan)\n\nUntuk memperbaiki ini, saya sarankan kamu melakukan langkah berikut:\n\n1.  **Strategi \"Ubah Bahasa\":**\n    *   Setiap mengerjakan soal cerita, jangan langsung menghitung. Latih dirimu untuk menuliskan \"Diketahui\" dan \"Ditanya\" secara detail.\n    *   Gunakan teknik *highlight* kata kunci (misal: \"total\" = penjumlahan, \"selisih\" = pengurangan, \"tiap/per\" = perkalian/pembagian).\n\n2.  **Perkuat Fondasi Trigonometri:**\n    *   Jangan menghafal rumus secara acak. Fokus pada pemahaman **Lingkaran Satuan (Unit Circle)**. Jika kamu paham asal-usul nilai sin/cos dari lingkaran, kamu tidak perlu menghafal banyak angka.\n\n3.  **Metode Latihan \"Reverse Engineering\":**\n    *   Karena kamu kuat di Barisan Aritmetika, cobalah melihat contoh soal Fungsi Kuadrat yang sudah selesai dikerjakan. Tutupi langkah penyelesaiannya, lalu coba tuliskan *logika* di balik setiap langkah tersebut, bukan sekadar angkanya.\n\n4.  **Jadwal Latihan:**\n    *   **Minggu ini:** Fokus pada *Trigonometri Dasar* (tonton video visualisasi grafik sin/cos agar lebih paham).\n    *   **Minggu depan:** Fokus pada *Pemodelan Matematika* untuk Persamaan Linear. Selesaikan minimal 3 soal cerita setiap hari dengan menuliskan model matematikanya dulu sebelum menghitung.\n\n**Pertanyaan saya untukmu:** Saat mengerjakan soal cerita, apakah kamu merasa bingung di bagian \"langkah awal\" (membuat persamaan) atau justru sudah dapat persamaannya tapi salah saat menghitung hasilnya? \n\nJawab pertanyaan ini, dan kita akan mulai sesi bimbingan berikutnya dari sana!",
+    "model": "gemini-3.1-flash-lite"
+  },
+  "prompt_C": {
+    "prompt_version": "C",
+    "system_prompt": "Kamu adalah guru matematika berpengalaman yang membantu siswa menemukan konsep yang belum dikuasai (learning gap) dan menyusun rencana belajar.\n\nATURAN WAJIB:\n1. HANYA gunakan konsep dan angka yang ada di FAKTA. Jangan menambah konsep baru.\n2. Salin persentase_benar dan status dari FAKTA apa adanya. Jangan menghitung ulang atau mengubahnya.\n3. konsep_prioritas berisi maksimal 3 konsep berstatus \"belum_dikuasai\" atau \"perlu_latihan\", diurutkan dari persentase terendah. Jika semua konsep \"dikuasai\", isi dengan list kosong.\n4. Buat tepat satu rekomendasi untuk setiap konsep di konsep_prioritas. Aktivitas harus konkret (apa yang dikerjakan, berapa soal/menit), bukan saran umum seperti \"belajar lebih giat\".\n5. Jangan memberi label negatif pada siswa (malas, bodoh, lemah). Jangan menjanjikan hasil (\"pasti\", \"dijamin\").\n6. Gunakan bahasa Indonesia yang sederhana. pesan_untuk_siswa menyapa dengan \"kamu\", maksimal 2 kalimat.\n7. Jika total soal suatu konsep kurang dari 3, sebutkan di ringkasan bahwa bukti untuk konsep itu masih sedikit.",
+    "user_prompt": "TUGAS:\nBuat laporan learning gap untuk satu siswa dari hasil tes per konsep.\n\nKONTEKS:\nSiswa: Reza | Jenjang: SMA kelas 11 | Mapel: Matematika\nCatatan guru: Reza sering tidak menyelesaikan soal cerita.\nAmbang status: >= 75% dikuasai, 50-74% perlu_latihan, < 50% belum_dikuasai (sudah dihitung di FAKTA).\n\nFAKTA (JSON):\n[\n  {\n    \"konsep\": \"Trigonometri dasar\",\n    \"benar\": 2,\n    \"total_soal\": 10,\n    \"persentase_benar\": 20,\n    \"status\": \"belum_dikuasai\",\n    \"bukti_sedikit\": false\n  },\n  {\n    \"konsep\": \"Persamaan linear\",\n    \"benar\": 3,\n    \"total_soal\": 8,\n    \"persentase_benar\": 38,\n    \"status\": \"belum_dikuasai\",\n    \"bukti_sedikit\": false\n  },\n  {\n    \"konsep\": \"Fungsi kuadrat\",\n    \"benar\": 5,\n    \"total_soal\": 8,\n    \"persentase_benar\": 63,\n    \"status\": \"perlu_latihan\",\n    \"bukti_sedikit\": false\n  },\n  {\n    \"konsep\": \"Limit fungsi\",\n    \"benar\": 4,\n    \"total_soal\": 6,\n    \"persentase_benar\": 67,\n    \"status\": \"perlu_latihan\",\n    \"bukti_sedikit\": false\n  },\n  {\n    \"konsep\": \"Barisan aritmetika\",\n    \"benar\": 7,\n    \"total_soal\": 8,\n    \"persentase_benar\": 88,\n    \"status\": \"dikuasai\",\n    \"bukti_sedikit\": false\n  }\n]\n\nFORMAT OUTPUT:\nKembalikan HANYA JSON valid dengan field:\n- ringkasan (string, 2-3 kalimat)\n- status_konsep (list of {konsep, persentase_benar, status}) untuk SEMUA konsep di FAKTA\n- konsep_prioritas (list of string, maks 3)\n- rekomendasi_belajar (list of {konsep, aktivitas, alasan})\n- pesan_untuk_siswa (string)",
+    "raw_output": "{\n  \"ringkasan\": \"Reza telah menguasai konsep barisan aritmetika dengan sangat baik. Namun, ada beberapa konsep dasar yang masih memerlukan penguatan agar kamu lebih percaya diri dalam mengerjakan soal.\",\n  \"status_konsep\": [\n    {\n      \"konsep\": \"Trigonometri dasar\",\n      \"persentase_benar\": 20,\n      \"status\": \"belum_dikuasai\"\n    },\n    {\n      \"konsep\": \"Persamaan linear\",\n      \"persentase_benar\": 38,\n      \"status\": \"belum_dikuasai\"\n    },\n    {\n      \"konsep\": \"Fungsi kuadrat\",\n      \"persentase_benar\": 63,\n      \"status\": \"perlu_latihan\"\n    },\n    {\n      \"konsep\": \"Limit fungsi\",\n      \"persentase_benar\": 67,\n      \"status\": \"perlu_latihan\"\n    },\n    {\n      \"konsep\": \"Barisan aritmetika\",\n      \"persentase_benar\": 88,\n      \"status\": \"dikuasai\"\n    }\n  ],\n  \"konsep_prioritas\": [\n    \"Trigonometri dasar\",\n    \"Persamaan linear\",\n    \"Fungsi kuadrat\"\n  ],\n  \"rekomendasi_belajar\": [\n    {\n      \"konsep\": \"Trigonometri dasar\",\n      \"aktivitas\": \"Mengerjakan 10 soal dasar tentang perbandingan trigonometri dalam segitiga siku-siku selama 30 menit.\",\n      \"alasan\": \"Fokus pada pemahaman dasar perbandingan sisi akan membantu meningkatkan kemampuan awal kamu.\"\n    },\n    {\n      \"konsep\": \"Persamaan linear\",\n      \"aktivitas\": \"Menyelesaikan 8 soal latihan persamaan linear satu variabel dengan langkah-langkah tertulis.\",\n      \"alasan\": \"Latihan menulis langkah penyelesaian akan membantu kamu membiasakan diri dengan struktur soal cerita.\"\n    },\n    {\n      \"konsep\": \"Fungsi kuadrat\",\n      \"aktivitas\": \"Menggambar grafik dari 5 fungsi kuadrat yang berbeda dalam waktu 40 menit.\",\n      \"alasan\": \"Memahami visualisasi grafik akan mempermudah kamu saat menghadapi masalah fungsi kuadrat dalam bentuk cerita.\"\n    }\n  ],\n  \"pesan_untuk_siswa\": \"Kamu telah menunjukkan hasil yang baik di beberapa topik, jadi teruslah semangat belajar. Jangan ragu untuk berlatih sedikit demi sedikit agar konsep yang sulit terasa lebih mudah.\"\n}",
+    "model": "gemini-3.1-flash-lite"
+  },
+  "failure_before": {
+    "student_label": "Siswa-12",
+    "report": {
+      "ringkasan": "Kamu telah mencoba mengerjakan beberapa topik matematika, namun masih ada beberapa konsep yang perlu diperdalam. Bukti untuk konsep Turunan fungsi dan Integral tak tentu masih sedikit sehingga perlu latihan lebih banyak.",
+      "status_konsep": [
+        {
+          "konsep": "Turunan fungsi",
+          "persentase_benar": 0,
+          "status": "belum_dikuasai"
+        },
+        {
+          "konsep": "Integral tak tentu",
+          "persentase_benar": 50,
+          "status": "perlu_latihan"
+        },
+        {
+          "konsep": "Logaritma",
+          "persentase_benar": 60,
+          "status": "perlu_latihan"
+        }
+      ],
+      "konsep_prioritas": [
+        "Turunan fungsi",
+        "Integral tak tentu",
+        "Logaritma"
+      ],
+      "rekomendasi_belajar": [
+        {
+          "konsep": "Turunan fungsi",
+          "aktivitas": "Kerjakan 5 soal dasar tentang aturan rantai turunan fungsi selama 30 menit.",
+          "alasan": "Untuk memahami dasar-dasar pengerjaan turunan fungsi yang belum dikuasai."
+        },
+        {
+          "konsep": "Integral tak tentu",
+          "aktivitas": "Kerjakan 5 soal latihan integral dasar selama 30 menit.",
+          "alasan": "Membantu memperkuat pemahaman mengenai langkah-langkah dasar integral."
+        },
+        {
+          "konsep": "Logaritma",
+          "aktivitas": "Selesaikan 10 soal sifat-sifat logaritma dalam waktu 45 menit.",
+          "alasan": "Latihan ini bertujuan agar kamu lebih lancar menggunakan berbagai sifat logaritma dalam soal."
+        }
+      ],
+      "pesan_untuk_siswa": "Terus semangat belajar matematika ya, kamu pasti bisa memahami konsep ini dengan latihan rutin. Fokuslah pada konsep yang menurutmu paling menantang agar pemahamanmu semakin baik."
+    },
+    "warnings": [],
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "C"
+  },
+  "updated": "2026-11-18T10:35:04",
+  "failure_after": {
+    "student_label": "Reza",
+    "report": {
+      "ringkasan": "Reza saat ini memiliki kendala pada materi Trigonometri dasar dengan persentase benar 20% dan Persamaan linear sebesar 38%. Mengingat catatan guru mengenai kesulitan menyelesaikan soal cerita, fokus pada dua konsep ini sangat krusial untuk memperkuat pemahaman dasar.",
+      "status_konsep": [
+        {
+          "konsep": "Trigonometri dasar",
+          "persentase_benar": 20,
+          "status": "belum_dikuasai"
+        },
+        {
+          "konsep": "Persamaan linear",
+          "persentase_benar": 38,
+          "status": "belum_dikuasai"
+        },
+        {
+          "konsep": "Fungsi kuadrat",
+          "persentase_benar": 63,
+          "status": "perlu_latihan"
+        },
+        {
+          "konsep": "Limit fungsi",
+          "persentase_benar": 67,
+          "status": "perlu_latihan"
+        },
+        {
+          "konsep": "Barisan aritmetika",
+          "persentase_benar": 88,
+          "status": "dikuasai"
+        }
+      ],
+      "konsep_prioritas": [
+        "Trigonometri dasar",
+        "Persamaan linear",
+        "Fungsi kuadrat"
+      ],
+      "rekomendasi_belajar": [
+        {
+          "konsep": "Trigonometri dasar",
+          "aktivitas": "Mengerjakan 5 soal dasar identitas trigonometri selama 30 menit setiap hari.",
+          "alasan": "Latihan berulang membantu memperkuat pemahaman konsep dasar yang belum dikuasai."
+        },
+        {
+          "konsep": "Persamaan linear",
+          "aktivitas": "Membaca soal cerita, menuliskan variabel, lalu mengubahnya menjadi model matematika selama 20 menit.",
+          "alasan": "Aktivitas ini melatih keterbiasaan untuk mengurai soal cerita agar lebih mudah diselesaikan."
+        },
+        {
+          "konsep": "Fungsi kuadrat",
+          "aktivitas": "Mengerjakan 3 soal latihan menentukan titik puncak fungsi kuadrat selama 15 menit.",
+          "alasan": "Fokus pada satu sub-topik membantu memperbaiki pemahaman secara bertahap."
+        }
+      ],
+      "pesan_untuk_siswa": "Kamu sudah berhasil menguasai materi barisan aritmetika dengan sangat baik. Ayo pelan-pelan kita latih konsep lainnya supaya kamu lebih percaya diri dalam belajar matematika."
+    },
+    "warnings": [],
+    "model": "gemini-3.1-flash-lite",
+    "prompt_version": "C"
+  }
+}

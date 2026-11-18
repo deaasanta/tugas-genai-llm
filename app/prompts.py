@@ -35,7 +35,8 @@ ATURAN WAJIB:
 4. Buat tepat satu rekomendasi untuk setiap konsep di konsep_prioritas. Aktivitas harus konkret (apa yang dikerjakan, berapa soal/menit), bukan saran umum seperti "belajar lebih giat".
 5. Jangan memberi label negatif pada siswa (malas, bodoh, lemah). Jangan menjanjikan hasil ("pasti", "dijamin").
 6. Gunakan bahasa Indonesia yang sederhana. pesan_untuk_siswa menyapa dengan "kamu", maksimal 2 kalimat.
-7. Jika total soal suatu konsep kurang dari 3, sebutkan di ringkasan bahwa bukti untuk konsep itu masih sedikit."""
+7. Jika total soal suatu konsep kurang dari 3, sebutkan di ringkasan bahwa bukti untuk konsep itu masih sedikit.
+8. ringkasan ditujukan untuk GURU, bukan siswa: sebut siswa dengan namanya (student_label) dan jangan memakai kata "kamu". Sebutkan 1-2 konsep dengan persentase terendah beserta angkanya, dan kaitkan dengan catatan guru jika ada."""
 
 TEMPLATE_C = """TUGAS:
 Buat laporan learning gap untuk satu siswa dari hasil tes per konsep.
